@@ -1,0 +1,15 @@
+PRÜFBERICHT GEHÄUSE  IFT-NT-2026-GH  Rev. C
+Alle Prüfungen bestanden.
+
+OK  Platine Breite: Freiraum 14.5 mm je Seite
+OK  Platine Tiefe: Freiraum 19.5 mm
+OK  Bauhöhe über Kühlkörper frei
+OK  Distanzbolzen treffen Platinenbohrung 5 mm vom Rand
+OK  Meter enden 249.7, Poti bei 266
+OK  Buchsenabstand 19 mm
+OK  Meter-Ausschnitt 45.7 × 26.5 (DSN-VC288)
+OK  PE 13.5 mm neben der Kombibuchse
+OK  Abluft frei vom PE-Bolzen
+OK  60-mm-Abluft hat Rand im 88-mm-Blech
+OK  Kein 80-mm-Chassislüfter: 88 mm Höhe reicht nicht
+OK  Seitenblech 197 × 88 mm (zwischen Front und Rücken)

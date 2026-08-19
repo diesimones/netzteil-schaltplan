@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" width="280mm" height="88mm">
+  <rect width="280" height="88" fill="#c9cdc4" stroke="#1c1d18" stroke-width="0.35"/>
+  <rect x="16" y="36" width="60.5" height="30" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="90" cy="58" r="2.25" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="180" cy="44" r="28" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="155" cy="69" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="205" cy="69" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="155" cy="19" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="205" cy="19" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+  <circle cx="118" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="121" cy="66" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="118" cy="60" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="121" cy="54" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="118" cy="48" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="121" cy="42" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="124" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="127" cy="66" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="124" cy="60" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="127" cy="54" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="124" cy="48" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="127" cy="42" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="130" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="133" cy="66" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="130" cy="60" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="133" cy="54" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="130" cy="48" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="133" cy="42" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="136" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="139" cy="66" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="136" cy="60" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="139" cy="54" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="136" cy="48" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="139" cy="42" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="142" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="145" cy="66" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="142" cy="60" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="145" cy="54" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="142" cy="48" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="145" cy="42" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="148" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="151" cy="66" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="148" cy="60" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="148" cy="48" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="154" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+<circle cx="160" cy="72" r="2" fill="none" stroke="#1c1d18" stroke-width="0.15"/>
+  <text x="4" y="6" font-size="3.2" font-family="monospace">IFT-NT-2026-GH rear</text>
+</svg>

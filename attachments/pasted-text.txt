@@ -1,0 +1,1782 @@
+Ich starte hier einen neuen Chat. Bitte nenne diesen Chat IFT Meister Netzteil.
+
+Alles klar, der Chat ist als IFT Meister Netzteil vermerkt!
+
+Womit legen wir los?
+
+Https://de.aliexpress.com/item/1005009727810085.html?UTABTest=aliabtest136043_44066&pdp_npi=6%40dis%21EUR%213.37%211.69%21%21%2125.91%2112.95%21%402151fd2c17803611745335515e10bd%2112000049965219386%21affd%21%21%21%211%210%21&dp=Cj0KCQjw3K7RBhDJARIsAKRtP5R5-4EyUha-cC7HeXRX_6oDFXk9SHhSQOQsl3EMv8jIm1Su_KYd2r4aArryEALw_wcB%7C0AAAAA_48aDTlM-D9MHUR2BYhuscgpUdgm%7CCj8KCQjwuanRBhCqARIuAI-FmgGVdoVz5uLh8J5WCkqWYhyU8AVHrn93r4NZTDzQ0TusUV6lGocnyPHh3xoCPPo%7Cv1&cn=de_a&gad_source=1&aff_fcid=7b145bcfdf0b4b129c042fc320594eea-1781289021577-00525-_onKPRpM&aff_fsk=_onKPRpM&aff_platform=api-new-product-query&sk=_onKPRpM&aff_trace_key=7b145bcfdf0b4b129c042fc320594eea-1781289021577-00525-_onKPRpM&terminal_id=4cd966138ffa4502810631a9117b129d&OLP=1132101708_f_group2&o_s_id=1132101708&tagIds=1006829618%2C1006829623%2C1006829556%2C1006957779%2C1006829620%2C1006829627%2C1006830602%2C1006830554%2C1006843882%2C1006830605%2C1006829516%2C1006834157&afSmartRedirect=y
+
+Der angegebene Link führt zu einem Angebot für ein LM2596 DC-DC Step-Down (Buck) Schaltregler-Modul auf AliExpress.
+
+In den bereitgestellten Dokumenten befinden sich das Datenblatt für den LM2596 sowie die Bau- und Bedienungsanleitung für ein klassisches lineares Labornetzgerät (H-Tronic HB 533).  
+PDF
++ 2
+
+Technische Übersicht: LM2596 Step-Down Schaltregler
+Arbeitsweise: Der LM2596 ist ein integrierter Step-Down-Schaltregler (Buck Converter), der mit einer festen Frequenz von 150 kHz schaltet.  
+PDF
+
+Eingangs- & Ausgangswerte: Er akzeptiert Eingangsspannungen von bis zu 40 V und liefert eine einstellbare Ausgangsspannung von 1,23 V bis 37 V bei einem Dauerlaststrom von bis zu 3,0 A.  
+PDF
+
+Wirkungsgrad: Durch das Schaltprinzip arbeitet das Modul wesentlich effizienter als lineare Regler und erzeugt insbesondere bei höheren Spannungsdifferenzen deutlich weniger Abwärme.  
+PDF
+
+Vergleich: LM2596 (Schaltregler) vs. H-Tronic HB 533 (Längsregler)
+Merkmal	
+LM2596 Modul (Schaltregler)  
+PDF
+
+H-Tronic HB 533 (LM723 Längsregler)  
+PDF
++ 1
+
+Wirkungsgrad & Abwärme	
+Sehr hoch; geringe Verlustleistung.  
+PDF
+
+Niedrig; Verlustleistung P 
+V
+​
+ =ΔU×I 
+load
+​
+  wird komplett als Wärme abgegeben.  
+PDF
+
+Kühlung	
+Sehr geringer Kühlbedarf, kompakte Bauform.  
+PDF
+
+Erfordert großen Kühlkörper (max. 20 W Verlustleistung bei Standardaufbau).  
+PDF
++ 1
+
+Spannungsqualität	
+Schaltbedingter Sägezahn-Rippel und kurze Impulsspitzen bei 150 kHz.  
+PDF
+
+Sehr saubere DC-Spannung mit geringer Restwelligkeit (<2 mV).  
+PDF
++ 1
+
+Typische Anwendung	
+Effiziente DC-DC-Wandlung, Vorregler, Akkuladekreise, Modulversorgung.  
+PDF
+
+Präzisions-Laborstromversorgung für empfindliche Schaltungen und Messtechnik.  
+PDF
+
+Möchtest du das LM2596-Modul für ein bestimmtes Projekt einsetzen oder als Vorregler für eine Schaltung nutzen?
+
+Das hier diese PDF Scan ist das Meisterprojekt. Bitte analysiere diese PDF und ähm die mir sollen dort ein Netzteil bauen. Was ist dabei zu beachten? Es gibt dort auch thermische Berechnungen und ähnliches und Vorschriften, die dazu beachten sind. Bitte ähm bringe mir äh das äh Projekt näher und sage mir, wo es dabei besonders ankommt, worauf es ankommt.
+
+Die vorliegende Situationsaufgabe stellt ein umfassendes Meisterprojekt im Fachbereich Informationstechnik dar. Das Projekt verknüpft hardwarenahe Schaltungsentwicklung, Gehäusebau, Sicherheits- und Normenprüfungen sowie betriebswirtschaftliche Kalkulationen.  
+PDF
++ 1
+
+1. Überblick über den Projektauftrag
+Das Gesamtsystem besteht im Wesentlichen aus zwei Hauptkomponenten in einem gemeinsamen Gehäuse:
+
+Multispannungs-Schaltnetzteil (Eigenentwicklung):
+
+Vier Festspannungsausgänge: +12 V, -12 V, +5 V, -5 V bei jeweils bis zu 1 A Laststrom.  
+PDF
+
+Hoher Wirkungsgrad nach 80-PLUS-Bronze-Niveau (mindestens 82% bis 85% Wirkungsgrad).  
+PDF
+
+Realisierung über DC-DC-Wandler oder einen Sperrwandler (Flyback-Topologie).  
+PDF
+
+Universal-Netzgerät (Integration):
+
+Regelbarer Bereich: 1...30 V / 0...3 A.  
+PDF
+
+Pflichtaufgabe: Thermische Auslegung und Kühlkörperberechnung für dieses Modul.  
+PDF
+
+Anzeige und Schnittstellen:
+
+Jeder Ausgang muss über eigene Volt- und Amperemeter (digital oder analog) im Frontpanel verfügen.  
+PDF
+
+Gehäuse & Layout:
+
+Gehäuse und Leiterplatten sind überwiegend in Eigenfertigung herzustellen.  
+PDF
+
+2. Worauf es besonders ankommt (Die Kernpunkte der Bewertung)
+A. Thermische Berechnungen (Kühlkörperauslegung)
+Bei der Integration des regelbaren Universal-Netzgeräts (1–30 V / 0–3 A) entsteht die höchste thermische Belastung. Wenn dieses Modul eine analoge Längsregelung nutzt, fällt bei niedriger Ausgangsspannung und hohem Strom die meiste Verlustleistung am Längstransistor ab.  
+PDF
+
+Beispiel zur Kühlkörperberechnung:
+
+Unwesentlichstes Szenario (Worst Case): U 
+Eingang
+​
+ =35 V, U 
+Ausgang
+​
+ =1 V, I 
+Last
+​
+ =3 A
+
+Verlustleistung am Transistor:
+
+P 
+V
+​
+ =(U 
+Ein
+​
+ −U 
+Aus
+​
+ )⋅I=(35 V−1 V)⋅3 A=102 W
+Wärmewiderstands-Berechnung:
+
+R 
+th,K 
+u
+¨
+ hlk 
+o
+¨
+ rper
+​
+ ≤ 
+P 
+V
+​
+ 
+T 
+j,max
+​
+ −T 
+Umgebung
+​
+ 
+​
+ −(R 
+th,Gleit/Geh 
+a
+¨
+ use
+​
+ +R 
+th,W 
+a
+¨
+ rmeleitpaste
+​
+ )
+Zu beachten:
+
+Ist eine reine passive Kühlung bei dem vorgegebenen Gehäusevolumen möglich, oder wird ein temperaturgeführter Lüfter / Thermoschalter (Klixon) benötigt?
+
+Beim 1-Stunden-Volllasttest darf die maximale Sperrschichttemperatur (T 
+j
+​
+ ) der Bauteile nicht überschritten werden.  
+PDF
+
+B. Normenkonformität und Sicherheit
+Als Prüfer wird besonderes Augenmerk darauf gelegt, dass das Gerät sicher betrieben werden kann:  
+PDF
+
+Niederspannungsrichtlinie & Produktsicherheit (DIN EN 62368-1 / VDE 0868-1):
+
+Galvanische Trennung: Ausreichende Kriech- und Luftstrecken auf der Platine zwischen Primärseite (230 V) und Sekundärseite (Schutzkleinspannung SELV/PELV).
+
+Berührungsschutz: Schutzart (mindestens IP20), Berührungsschutz aller netzspannungsführenden Teile (Eingangsbuchse, Hauptschalter, Sicherungshalter).
+
+Schutzleiteranschluss (Schutzklasse I): Das Metallgehäuse muss ordnungsgemäß mit dem PE-Leiter verbunden sein.
+
+EMV-Richtlinie (DIN EN 61000-6-1 / 6-3):
+
+Schaltregler arbeiten mit hohen Schaltfrequenzen und erzeugen Oberwellen.
+
+Erforderlich: Netzfilter auf der Primärseite, geeignete LC-Filter an den DC-Ausgängen gegen Ripple (<100 mV 
+pp
+​
+ ) sowie EMV-gerechtes Masse-Schirmkonzept des Gehäuses.  
+PDF
++ 1
+
+Geräteprüfung nach VDE 0701-0702 / DIN EN 50678:
+
+Durchführen der Schutzleiterwiderstandsmessung (<0,3 Ω), Isolationswiderstandsmessung (>1 MΩ) und Ersatzableitstrommessung vor der Inbetriebnahme.
+
+C. Schaltpläne, Schutzschaltungen und Messtechnik
+Vollständige Schaltungsunterlagen: Primärseite, Transformator/Sperrwandler, Sekundärgleichrichtung, Siebung, DC-DC-Tiefsetzsteller, Schutzbeschaltung.  
+PDF
+
+Schutzfunktionen:
+
+Überstrom- / Kurzschlussschutz (Current Limiting / Foldback).
+
+Überspannungsschutz (OVP) und thermischer Überlastschutz.
+
+Messgeräte-Integration: Die Volt- und Amperemeter für alle 5 Ausgänge (+12V, -12V, +5V, -5V sowie 1–30V) müssen so verschaltet werden, dass ihr Eigenverbrauch das Messergebnis an den Buchsen nicht verfälscht.  
+PDF
+
+D. Prüfprotokoll & Validierung
+Das Prüfprotokoll ist ein zentraler Bestandteil der Dokumentation:  
+PDF
+
+Messung von Spannung, Strom, Restwelligkeit (Oszilloskop-Messung in mV 
+pp
+​
+ ) und Wirkungsgrad bei 25 %, 50 % und 100 % Last.  
+PDF
+
+Nachweis des 1-Stunden-Volllasttests mit Erfassung der Gehäuse- und Kühlkörpertemperaturen.  
+PDF
+
+Nachweis der Kurzschlussfestigkeit an allen Ausgängen.  
+PDF
+
+E. Wirtschaftlichkeit & Marktfähigkeit
+Kalkulation: Gegenüberstellung von Materialkosten (BOM), Fertigungsstunden (Layout, Mechanik, Montage) und Gemeinkosten zur Ermittlung des Selbstkostenpreises.  
+PDF
+
+Break-Even-Analyse: Ermittlung der Stückzahl, ab der Gewinn erzielt wird (inkl. grafischer Darstellung).  
+PDF
+
+SWOT-Analyse & Marktzulassung: Reelle Bewertung, ob ein in Handarbeit gefertigtes Spezialnetzteil gegenüber industriellen Massenprodukten Marktchancen hat (z.B. als hochflexibles Laborgerät) und welche Hürden die CE-Zulassung mit sich bringt.  
+PDF
+
+3. Empfohlene Vorgehensweise zur Bearbeitung
+Topologie-Festlegung: Blockschaltbild erstellen (Netzfilter → Trafo/Sperrwandler → Gleichrichtung → DC-DC-Wandler für Festspannungen + Modul für 1–30V).  
+PDF
+
+Berechnungen durchführen:
+
+Kühlkörper für das Universalnetzgerät (Worst-Case P 
+V
+​
+ ).  
+PDF
+
+Auslegung der Drosseln/Kondensatoren zur Einhaltung der Ripple-Toleranz (<100 mV 
+pp
+​
+ ).  
+PDF
+
+Schaltpläne & Layout: Schaltpläne normgerecht zeichnen (z.B. KiCad/Target/EAGLE) mit klarer Trennung von Primär- und Sekundärbereich.  
+PDF
+
+Gehäusekonstruktion: CAD-Zeichnung / Skizze mit Durchbrüchen für Anzeigen, Buchsen, Schalter, Netzanschluss und Lüftungsschlitzen.  
+PDF
+
+Prüfprotokoll & Messreihen: Soll-Ist-Vergleiche tabellarisch aufbereiten.  
+PDF
+
+Kaufmännischer Teil & Erklärungen: Kalkulationsschema, Break-Even-Diagramm, SWOT-Analyse, Selbst-Errichter-Erklärung und Reflexion ausformulieren.  
+PDF
+
+Okay, vielen Dank. Da können wir vielleicht mal bitte beim ersten Punkt anfangen. Ähm die Typologie Festlegung ein Blockschaltbild erstellen. Kannst du mir eine Zeichnung von einem Blockschaltbild erstellen für dieses Netzteil.
+
+Hier ist ein systematischer Entwurf für das Blockschaltbild deines Multispannungs-Netzteils.  
+PDF
+
+Da in der Aufgabenstellung sowohl ein Sperrwandler (Flyback) als auch DC-DC-Wandler vorgeschlagen werden, ist ein zweistufiges Konzept die technisch sauberste und effizienteste Lösung für ein Meisterprojekt, um das geforderte 80-PLUS-Bronze-Effizienzniveau zu erreichen.  
+PDF
++ 1
+
+Konzept der Topologie
+Primärstufe (Galvanische Trennung & Hauptversorgung):
+
+Netzspannung (230 V AC) → EMV-Filter & Schutzschaltung → Gleichrichtung → Sperrwandler (Flyback-Topologie).  
+PDF
+
+Der Sperrwandler übernimmt die galvanische Trennung (Sicherheitstrennung nach DIN EN 62368-1) und erzeugt saubere Zwischenkreis-Gleichspannungen.
+
+Sekundärstufe (DC-DC-Wandler für Festspannungen):
+
+Hocheffiziente DC-DC-Tiefsetzsteller (Buck-Converter) bzw. Inverting-Converter erzeugen aus den Zwischenspannungen die geforderten Festspannungen: +12 V, -12 V, +5 V, -5 V (jeweils max. 1 A).  
+PDF
+
+Universal-Netzgerät-Integration:
+
+Das mitgelieferte regelbare Modul (1…30 V/0…3 A) wird direkt von der Haupt-Zwischenspannung (ca. +35 V DC) gespeist.  
+PDF
+
+Anzeige- und Messstufe:
+
+Jeder der 5 Ausgangskanäle erhält Strom- und Spannungssensoren (Shunts) mit dedizierten Anzeigeinstrumenten.  
+PDF
+
+Blockschaltbild (ASCII-Visualisierung)
+Plaintext
+ 230 V AC / 50 Hz
+      │
+      ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│ PRIMÄRSEITE (Netzspannungsebene)                                       │
+│  [Kaltgerätebuchse + PE] ──► [Sicherung F1 + NTC] ──► [EMV-Netzfilter]  │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │ 230 V AC
+                                    ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│  [Brückengleichrichter + Primär-Pufferkondensator (~325 V DC)]         │
+│  [Flyback-Controller + Power-MOSFET (Schaltfrequenz z. B. 65-100 kHz)] │
+└───────────────────────────────────┬────────────────────────────────────┘
+                                    │
+    ================================╧================================  <-- GALVANISCHE TRENNUNG
+                               HOCHFREQUENZ-TRAFO                       (Isolationsbarriere)
+    ================================╤================================
+                                    │
+┌───────────────────────────────────┴────────────────────────────────────┐
+│ SEKUNDÄRSEITE (Schutzkleinspannung / SELV-Ebene)                      │
+│ Sekundärgleichrichtung & Siebung (Erzeugung der Zwischenspannungen)     │
+└──────────┬────────────────────────┬────────────────────────┬───────────┘
+           │ +15 V DC               │ -15 V DC               │ +35 V DC
+           ▼                        ▼                        ▼
+┌──────────────────────┐  ┌──────────────────────┐  ┌──────────────────────┐
+│  DC-DC Wandler +12V  │  │  DC-DC Wandler -12V  │  │ Universal-Netzgerät  │
+│  (Buck-Converter)    │  │  (Inverting/Buck)    │  │ (1...30 V / 0...3 A) │
+└──────────┬───────────┘  └──────────┬───────────┘  │ [Inkl. Kühlkörper]   │
+           │                         │              └──────────┬───────────┘
+           ├─────────────────────────┼─────────────────────────┤
+           │ +15 V DC                │ -15 V DC                │
+           ▼                         ▼                         │
+┌──────────────────────┐  ┌──────────────────────┐             │
+│  DC-DC Wandler +5V   │  │  DC-DC Wandler -5V    │             │
+│  (Buck-Converter)    │  │  (Inverting/Buck)    │             │
+└──────────┬───────────┘  └──────────┬───────────┘             │
+           │                         │                         │
+           ▼                         ▼                         ▼
+┌────────────────────────────────────────────────────────────────────────┐
+│ ANZEIGE- UND MESSSTUFE (Spannung V & Strom A je Kanal)                 │
+│  [V/A Display +12V]  [V/A Display -12V]  [V/A Display +5V]             │
+│  [V/A Display -5V]   [V/A Display 1..30V]                              │
+└──────────┬─────────────────┬──────────────────┬──────────────┬─────────┘
+           │                 │                  │              │
+           ▼                 ▼                  ▼              ▼
+     [ Ausgang +12V ]  [ Ausgang -12V ]   [ Ausgang +5V ]  [ Ausgang -5V ]
+     [ Ausgang 1..30V / 0..3A ]       [ Labor-GND / PE (optional) ]
+Mermaid-Diagramm (für Dokumentation / CAD / Visio / Markdown)
+Falls du deine Meisterarbeit in einem Programm wie Word, LaTeX, Notion oder Draw.io schreibst, kannst du folgenden Mermaid-Code direkt als Vektorgrafik rendern lassen:
+
+Code-Snippet
+graph TD
+    %% Primärseite
+    subgraph Primary["Primärseite (230 V AC / Netzspannung)"]
+        AC["Netzeingang 230V AC / PE"] --> FUSE["Sicherung & Einschaltstrombegrenzer (NTC)"]
+        FUSE --> EMV["EMV-Netzfilter"]
+        EMV --> RECT["Brückengleichrichter & Zwischenkreis (~325V DC)"]
+        RECT --> PWM["PWM-Controller & Primary MOSFET"]
+    end
+
+    %% Trennung
+    PWM -->|HF-Übertragung| TRAFO[("Sperrwandler-Trafo (Galvanische Trennung)")]
+
+    %% Sekundärseite
+    subgraph Secondary["Sekundärseite (SELV / Schutzkleinspannung)"]
+        TRAFO --> SEC_REC["Sekundärgleichrichtung & Siebung"]
+        
+        SEC_REC -->|+15V DC Bus| BUCK_12V["DC-DC Step-Down (+12V / 1A)"]
+        SEC_REC -->|+15V DC Bus| BUCK_5V["DC-DC Step-Down (+5V / 1A)"]
+        
+        SEC_REC -->|-15V DC Bus| BUCK_M12V["DC-DC Inverting (-12V / 1A)"]
+        SEC_REC -->|-15V DC Bus| BUCK_M5V["DC-DC Inverting (-5V / 1A)"]
+        
+        SEC_REC -->|+35V DC Bus| LAB_MOD["Universal-Netzgerät (1...30V / 3A)"]
+    end
+
+    %% Anzeigen und Ausgänge
+    subgraph Display_Out["Anzeigeinstrumente & Ausgangsbuchsen"]
+        BUCK_12V --> DISP1["V/A Display +12V"] --> OUT1["Buchse +12V"]
+        BUCK_M12V --> DISP2["V/A Display -12V"] --> OUT2["Buchse -12V"]
+        BUCK_5V --> DISP3["V/A Display +5V"] --> OUT3["Buchse +5V"]
+        BUCK_M5V --> DISP4["V/A Display -5V"] --> OUT4["Buchse -5V"]
+        LAB_MOD --> DISP5["V/A Display 1..30V"] --> OUT5["Buchse 1..30V / 0..3A"]
+    end
+
+    %% Style
+    style Primary fill:#ffe6e6,stroke:#cc0000,stroke-width:2px;
+    style Secondary fill:#e6f2ff,stroke:#0066cc,stroke-width:2px;
+    style Display_Out fill:#e6ffe6,stroke:#009933,stroke-width:2px;
+Erklärung der einzelnen Funktionsblöcke für deine Dokumentation
+EMV-Netzfilter & Eingangs-Schutzbeschaltung:
+
+Funktion: Verhindert, dass hochfrequente Schaltstörungen des Sperrwandlers ins öffentliche Netz zurückspeisen (EMV-Richtlinie) und schützt die Schaltung vor Überspannungsspitzen aus dem Netz.
+
+Bauteile: Varistor (MOV), X2-Kondensatoren, Y2-Kondensatoren, Stromkompensierte Drossel (Gleichtaktdrossel).
+
+Sperrwandler (Flyback-Hauptnetzteil):
+
+Funktion: Erzeugt aus den 325 V DC Zwischenkreisspannung galvanisch getrennte Zwischenspannungen (z. B. +35 V, +15 V, −15 V).
+
+Vorteil: Durch hohe Schaltfrequenz (65–100 kHz) reicht ein kleiner, leichter HF-Ferrittransformator im Vergleich zu einem scheren 50 Hz-Netztrafo.
+
+Sekundäre DC-DC-Wandler (+12 V, -12 V, +5 V, -5 V):
+
+Funktion: Präzise Regelung und Stabilisierung der Festspannungen bei hohem Wirkungsgrad (>85 %).  
+PDF
+
+Topologie: Synchron-Tiefsetzsteller (Buck-Converter) für positive Spannungen, invertierende Schaltregler (Buck-Boost) für negative Spannungen.
+
+Anzeige- und Messschaltung:
+
+Funktion: Erfüllung der Pflichtanforderung, Spannung und Strom jedes Kanals direkt am Gerät abzulesen.  
+PDF
+
+Positionierung: Die Strommess-Shunts müssen so eingeplant werden, dass ihr Spannungsabfall nicht die Ausgangsspannung an den Buchsen verfälscht (Sensing direkt an den Ausgangsklemmen).
+
+Sollen wir als Nächstes die Dimensionierung der Bauteile (Transformator/Spannungen) angehen oder möchtest du konkrete Vorschläge für die DC-DC-Wandler-ICs und den Sperrwandler-Controller?
+
+Also das Blockschaltbild fand ich von dir schon mal sehr gut, mit der wo es losgeht mit 230 Volt und 50 Hz. Ähm kannst du mir bitte in die jeweiligen Felder schon ähm Bauteile einfügen, wo du denkst, dass diese perfekt geeignet sind und aber bitte Rücksicht nehmen auf diese Vorgaben, die hier in der in dieser Situationsaufgabe Meisterprüfung Informationstechniker vorgegeben sind, nicht, dass wir zu weit abweichen vom Ziel. Aber wichtig ist halt, dass auch dieser Wirkungsgrad ähm mit dem auf 80 plus Bronzeniveau oder noch besser äh hinbekommen wird.
+
+Hier ist das detaillierte Blockschaltbild mit konkreten Bauteilen und Komponenten, die perfekt auf die Vorgaben deiner Meisterprüfung abgestimmt sind.  
+PDF
+
+Um das verlangte 80-PLUS-Bronze-Effizienzniveau (mindestens 82 % bis 85 % Gesamtwirkungsgrad) sicher zu erreichen, ist der Einsatz von Schaltreglern (Buck-Converter) für die Festspannungen sowie eine hocheffiziente Primärstufe unerlässlich (klassische Linearregler wie die Serie 78xx/79xx würden zu viel Verlustwärme erzeugen und die Effizienzprüfung unmöglich machen).  
+PDF
+
+Populiertes Blockschaltbild (mit konkreten Bauteilen)
+Plaintext
+========================================================================================
+ 230 V AC / 50 Hz  (Netzeingang)
+========================================================================================
+     │
+     ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 1. EINGANGS- & SCHUTZSTUFE (230 V AC)                                                │
+│  • Kaltgerätebuchse mit PE-Anschluss (z. B. Schurter KGF / 4301.1401)                 │
+│  • Feinsicherung: F1 = 2,0 A (träge, 5x20 mm, 250 V)                                  │
+│  • Einschaltstrombegrenzung: NTC-Thermistor (EPCOS B57237S / 10 Ohm)                 │
+│  • Überspannungsschutz: Varistor MOV (EPCOS S14K275 / 275 V AC)                      │
+│  • EMV-Netzfilter: Gleichtaktdrossel (Würth WE-CMB 2x10mH) + WIMA X2 (0,1 µF)        │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │ 230 V AC
+                                           ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 2. PRIMÄR-GLEICHRICHTUNG & ZWISCHENKREIS (~325 V DC)                                 │
+│  • Brückengleichrichter: KBL406 / GBU406 (600 V / 4 A)                               │
+│  • Primär-Ladekondensator: Panasonic ED-Serie 120 µF / 400 V (Low-ESR, 105°C)        │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │
+┌──────────────────────────────────────────┴───────────────────────────────────────────┐
+│ 3. SPERRWANDLER-STUFE (Flyback-Converter, f_sw = 65...100 kHz)                       │
+│  • PWM-Controller IC: TI UC3843B (oder TopSwitch-HX TOP258EN)                        │
+│  • Power-MOSFET: STMicroelectronics STP10NK60Z (600 V / 0,75 Ohm N-Channel)         │
+│  • Feedback/Galvanische Entkopplung: Optokoppler LTV-817 + Präzisionsref. TL431      │
+│  • Snubber-Netzwerk: RCD-Dämpfung (Diode UF4007 + 100 kOhm/3W + 2,2 nF/1kV)          │
+└──────────────────────────────────────────┬───────────────────────────────────────────┘
+                                           │
+    ======================================╧======================================
+     GALVANISCHE TRENNUNG: Hochfrequenz-Transformator (EF25/EFD30 Kern, TIW-Draht)
+    ======================================╤======================================
+                                           │
+┌──────────────────────────────────────────┴───────────────────────────────────────────┐
+│ 4. SEKUNDÄR-GLEICHRICHTUNG & SIEBUNG (Zwischenbusse)                                │
+│  • Schottky-Dioden: MBR10100 / MBR20100CT (100 V / 10 A, geringe Flussspannung V_F)  │
+│  • LC-Filterung: Panasonic FR Low-ESR Elkos (1000 µF / 35 V) + MLCC 100 nF            │
+└──────────┬───────────────────────────────┬───────────────────────────────┬───────────┘
+           │ +15 V DC                      │ -15 V DC                      │ +35 V DC
+           ▼                               ▼                               ▼
+┌──────────────────────────────┐┌──────────────────────────────┐┌──────────────────────────────┐
+│ 5a. DC-DC STEP-DOWN (+12V)   ││ 5b. DC-DC INVERTING (-12V)   ││ 5e. UNIVERSAL-NETZGERÄT      │
+│  • IC: TI TPS5430 / MP2307   ││  • IC: TPS5430 (Inverted)    ││  • Modul (1...30 V / 0...3 A)│
+│  • Ausgang: +12 V / 1 A      ││  • Ausgang: -12 V / 1 A      ││  • Transistor: 2N3055/TIP35C │
+│  • Effizienz: ~92 %          ││  • Effizienz: ~88 %          ││  • Kühlkörper: Fischer SK 47 │
+└──────────┬───────────────────┘└──────────┬───────────────────┘└──────────┬───────────────────┘
+           │ +15 V DC                      │ -15 V DC                      │
+           ▼                               ▼                               │
+┌──────────────────────────────┐┌──────────────────────────────┐             │
+│ 5c. DC-DC STEP-DOWN (+5V)    ││ 5d. DC-DC INVERTING (-5V)    │             │
+│  • IC: TI TPS5430 / MP1584   ││  • IC: TPS5430 (Inverted)    │             │
+│  • Ausgang: +5 V / 1 A       ││  • Ausgang: -5 V / 1 A       │             │
+│  • Effizienz: ~90 %          ││  • Effizienz: ~86 %          │             │
+└──────────┬───────────────────┘└──────────┬───────────────────┘             │
+           │                               │                               │
+           ▼                               ▼                               ▼
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│ 6. MESSTECHNIK & ANZEIGEN (Strom & Spannung je Kanal)                                │
+│  • Strommess-Shunts: $10\text{ m}\Omega$ / $50\text{ m}\Omega$ Präzisions-Widerstände (1 W, 1%)           │
+│  • Digital-Displays: 5x DSN-VC288 (Dual-Anzeige V/A, 0–100V / 0–10A)                 │
+└──────────┬──────────────────┬────────────┬───────────────────┬───────────┬───────────┘
+           │                  │            │                   │           │
+           ▼                  ▼            ▼                   ▼           ▼
+     [ Buchse +12V ]   [ Buchse -12V ] [ Buchse +5V ]   [ Buchse -5V ]  [ Buchse 1..30V ]
+========================================================================================
+Detaillierte Bauteil-Begründung für das Meisterprojekt
+Block 1: Netzanschluss & Schutzbeschaltung (Primärseite)
+Schurter KGF Kaltgerätebuchse: Kombiniert Netzeingang, Wippschalter und Sicherungshalter in einem Gehäuse. Das sorgt für professionellen Berührungsschutz (VDE 0675 / DIN EN 62368-1).  
+PDF
++ 1
+
+EPCOS S14K275 Varistor: Schützt den Primärkreis vor transienten Netzüberspannungen.
+
+EPCOS B57237 NTC-Thermistor (10 Ω): Begrenzt den hohen Einschaltstromstoß beim Laden des primären Elkos, um ein Auslösen des Leitungsschutzschalters beim Einschalten zu verhindern.
+
+Würth WE-CMB Gleichtaktdrossel (2×10 mH) & WIMA X2/Y2 Kondensatoren: Unverzichtbar für die EMV-Konformität (DIN EN 61000-6-3). Unterdrückt sowohl taktfrequente Gleichtakt- als auch Gegentaktstörungen des Schaltreglers.  
+PDF
+
+Block 2 & 3: Primärgleichrichtung & Sperrwandler (Flyback)
+KBL406 Brückengleichrichter (600 V/4 A): Ausreichend dimensioniert für die primäre Stromaufnahme.
+
+Panasonic ED 120 µF / 400 V Elko: Hält die Zwischenkreisspannung auch bei Netz-Einbrüchen stabil (U 
+DC
+​
+ ≈230 V× 
+2
+
+​
+ ≈325 V).
+
+PWM-Controller TI UC3843B + STP10NK60Z MOSFET:
+
+Der UC3843B ist der Industrie-Standard für stromgeführte Pulsweitenmodulation (Current-Mode PWM Controller). Er bietet Unterspannungsschutz und eine genaue Strombegrenzung.
+
+Der STP10NK60Z (600 V) bietet genügend Spannungsreserve gegen die beim Ausschalten entstehenden Induktionsspitzen des Transformators.
+
+Optokoppler LTV-817 + TL431: Überträgt die Regelinformation von der Sekundärseite zurück zur Primärseite unter Einhaltung der verlangten galvanischen Trennung (Isolationsspannung >3000 V RMS).
+
+Block 4 & 5: Sekundärseite & DC-DC Wandler (+12V, -12V, +5V, -5V)
+Um das verlangte 80-PLUS-Bronze-Niveau (Wirkungsgrad >82 % bis 85 %) zu erreichen, werden modernste Schaltregler-ICs anstelle variabler Linearregler verwendet:  
+PDF
+
+TPS5430 / MP2307 / MP1584 (Step-Down / Buck):
+
+Diese ICs arbeiten mit hohen Schaltfrequenzen (500 kHz bis 1,5 MHz) und integrierten MOSFET-Schaltern.
+
+Siegehen mit Spitzen-Wirkungsgraden von 90 % bis 95 % zu Werk.
+
+Positive Ausgänge (+12 V, +5 V): Beschaltet als klassischer Buck-Converter.  
+PDF
+
+Negative Ausgänge (-12 V, -5 V): Beschaltet in der Inverting Buck-Boost Topologie. Damit lässt sich aus einer positiven Eingangsspannung (+15 V) hocheffizient eine negative Ausgangsspannung erzeugen, ohne Effizienzeinbußen wie bei negativen Längsreglern (z. B. 7912).  
+PDF
+
+Block 6: Universal-Netzgerät (1...30 V / 0...3 A) & Kühlung
+Leistungstransistor (z. B. 2N3055 oder TIP35C): Wird direkt von der +35 V Zwischenkreisspannung gespeist.  
+PDF
+
+Kühlkörper (z. B. Fischer SK 47 / SK 85): Hier muss in deiner Projektarbeit die geforderte thermische Berechnung erfolgen (R 
+th,K-Worst-Case
+​
+ ≤0,6 K/W, ggf. ergänzt durch einen leisen 12 V Fan-Lüfter mit Temperatursteuerung).  
+PDF
+
+Block 7: Messtechnik & Anzeige
+Präzisions-Shunts (10 mΩ, 1 W): Niederohmige Messwiderstände in den Masse- bzw. Rückleitungen der Kanäle verhindern einen spürbaren Spannungsabfall an den Ausgangsbuchsen.  
+PDF
+
+DSN-VC288 Anzeigen: Kompakte digitale Panelmeter, die Strom und Spannung zeitgleich anzeigen und direkt in die Frontplatte eingebaut werden können.  
+PDF
+
+Okay, das sieht schon mal sehr gut aus. Kannst du mir aus dem Blockschaltbild, was du hier gemacht hast, noch mal eine richtige Zeichnung machen mit den Bauelementen und beschriften, was für Bauelemente das sind und wie diese in einem richtigen Schaltplan angeordnet sind. Bekommst du das hin?
+
+Hier ist die detaillierte schaltungstechnische Ausarbeitung des Netzteils.
+
+Die folgenden Stromlaufpläne sind nach Funktionsblöcken gegliedert und enthalten konkrete Bauteilbezeichnungen (z. B. F 
+1
+​
+ , C 
+1
+​
+ , Q 
+1
+​
+ ) sowie deren Beschaltung. Diese Pläne kannst du direkt als Referenz für die Erstellung deiner Schaltpläne in einem CAD-Programm (z. B. KiCad, Target 3001! oder EAGLE) nutzen.
+
+Teil 1: Primärseite & Sperrwandler (230 V AC bis Trafo)
+Dieser Bereich erzeugt aus der Netzspannung die galvanisch getrennten Sekundärspannungen und sichert die Einhaltung der EMV- sowie Sicherheitsnormen (DIN EN 62368-1).
+
+Stromlaufplan 1: Netzeingang, Filterung & PWM-Ansteuerung
+Plaintext
+L (230V AC) ──[ F1 2A T ]──┬──[ NTC 10R ]──┬─────────┐
+                           │               │         │
+                         [MOV1]          [C1]      [L1a] (Gleichtaktdrossel)
+                           │               │         │
+N (230V AC) ───────────────┴───────────────┴─────────┼───────[L1b]───┐
+                                                     │               │
+PE (Erde) ───────────────────────────────────────────┼───────┐       │
+                                                     │       │       │
+                                                     ▼       ▼       ▼
+                                                  ┌─────────────────────┐
+                                                  │ BR1 (GBU406)        │
+                                                  │ +    ~       ~    - │
+                                                  └─┬─────────────────┬─┘
+                                                    │                 │
+                                                    ├───────┐         │
+                                                  [C2]     [R1]       │
+                                                 120uF     100k       │
+                                                  400V      2W        │
+                                                    │       │         │
+GND_PRIM ───────────────────────────────────────────┴───────┴─────────┴── Primärmasse
+Ansteuerung des Leistungsschalters (UC3843 & MOSFET)
+Plaintext
++325V DC (von C2) ──┬─────────────────────────────────────┐ (Trafo Primärwicklg. N_p)
+                    │                                    ┌┴┐
+                   [R_start] (100k / 2W)                 │ │ T1 Primär
+                    │                                    └┬┘
+                    ├──────────────────────┐              │
+                    │                      │              ├──────┬───[D_snub UF4007]──┐
+                  [C_vcc]             [PIN 7 VCC]         │      │                    │
+                  47uF/50V                 │              │     [R_snub 100k/3W]   [C_snub 2.2nF]
+                    │                      │              │      │                    │
+                    ▼                      │              │      └───────┬────────────┘
+                GND_PRIM                   │              │              │
+                                           │              │              │
+                                      ┌────┴─────────┐    │              │
+   V_FB (von Optokoppler OK1) ───────►│ PIN 2 FB     │    │              │
+                                      │ IC1 UC3843   │    │              │
+                                      │              │    │              │
+                                      │ [PIN 6 OUT]  ├───┼──[R_G 10R]──┐│
+                                      │              │    │            ││
+                                      │ [PIN 3 CS]   ├───┼──┐        ┌┴┴┐
+                                      └──────┬───────┘    │  │        │  │ Q1 (STP10NK60Z)
+                                             │            │  │        └┬┬┘
+                                             │            │ [R_f 1k]   ││
+                                             │            │  │         ││
+                                             │            │  └─[C_f]───┤│
+                                             │            │   (100pF)  ││
+                                             │            │            ││
+                                             │            │     [R_sense 0.33R/2W]
+                                             │            │            ││
+GND_PRIM ────────────────────────────────────┴────────────┴────────────┴┴───────────
+Bauteile-Legende für Teil 1
+F1: Träge Feinsicherung 2,0 A / 250 V (5×20 mm).
+
+MOV1: Varistor EPCOS S14K275 (Spitzenüberspannungsschutz gegen Netztransienten).
+
+C1: Funkentstörkondensator Klasse X2, 100 nF / 275 V AC (WIMA MKP-X2).
+
+L1: Gleichtaktdrossel 2×10 mH (z. B. Würth WE-CMB), unterdrückt Gleichtaktstörungen.
+
+BR1: Brückengleichrichter GBU406 (600 V / 4 A).
+
+C2: Primärer Elko 120 µF / 400 V (105 °C, Low-ESR).
+
+R_snub, C_snub, D_snub: RCD-Snubber-Netzwerk zum Schutz des MOSFETs vor Induktionsspitzen der Trafo-Streuinduktivität.
+
+IC1: PWM-Controller TI UC3843B (Current-Mode Steuerung).
+
+Q1: N-Channel Power-MOSFET STP10NK60Z (600 V, R 
+DS(on)
+​
+ =0,75 Ω).
+
+R_sense: Shunt-Widerstand zur primärseitigen Peak-Strommessung (0,33 Ω / 2 W).
+
+Teil 2: Sekundärseite (Gleichrichtung & Spannungsbusse)
+Der Transformator T 
+1
+​
+  überträgt die Energie galvanisch getrennt auf die Sekundärseite. Hier entstehen die drei Rohspannungsbusse (+15 V, −15 V und +35 V).
+
+Plaintext
+                ===================================
+                HOCHFREQUENZ-TRAFO T1 (EFD30-Kern)
+                ===================================
+                               │
+            ┌──────────────────┴──────────────────┐
+            │ Sekundärwicklung N_s1               │ Sekundärwicklung N_s2
+            ▼                                     ▼
+   ┌─────────────────┐                   ┌─────────────────┐
+   │ D1 (MBR10100)   │                   │ D2 (MBR10100)   │
+   │ Schottky-Diode  │                   │ Schottky-Diode  │
+   └────────┬────────┘                   └────────┬────────┘
+            │                                     │
+            ├───────────[ L2 10uH ]───┐           ├───────────[ L3 10uH ]───┐
+            │                         │           │                         │
+          [C3]                      [C4]        [C5]                      [C6]
+        1000uF/35V                 100nF      1000uF/35V                 100nF
+            │                         │           │                         │
+GND_SEK ────┴─────────────────────────┴───────────┴─────────────────────────┴── Sekundärmasse
+                                      │                                     │
+                                      ▼                                     ▼
+                              +15V DC Zwischenbus                   -15V DC Zwischenbus
+Hinweis: Für das Universal-Netzgerät (1…30 V) wird eine weitere Sekundärwicklung (N 
+s3
+​
+ ) mit Diode D 
+3
+​
+  und Elko C 
+7
+​
+  ausgeführt, um eine Rohspannung von ca. +35 V DC bereitzustellen.
+
+Teil 3: DC-DC Step-Down Schaltregler (Beispiel +12 V Kanal)
+Aus dem +15 V Zwischenbus erzeugt der Abwärtswandler (Buck-Converter) hocheffizient die stabile Ausgangsspannung von +12 V bei bis zu 1 A. Der +5 V Kanal wird analog mit angepasstem Teilerverhältnis aufgebaut.
+
+Plaintext
++15V DC Bus ──┬──[ PIN 7 VIN ]────────────────────────────────────────────┐
+              │                                                           │
+            [C8] 10uF/50V MLCC                                            │
+              │                 IC2: TPS5430 Step-Down Regler             │
+GND_SEK ──────┴───────────────────────────────────────────────────────┐   │
+                                                                      │   │
+                                  ┌─────────────────────────┐         │   │
+                                  │ Pin 8 NC       Pin 1 BOOT├──[C9 10nF] │
+                                  │ Pin 7 VIN      Pin 2 NC │         │   │
+                                  │ Pin 6 ENA      Pin 3 VSENSE───┐   │   │
+                                  │ Pin 5 GND      Pin 4 PH ├──┬──┼───┼───┘
+                                  └─────────┬───────────────┘  │  │   │
+                                            │                  │  │   │
+GND_SEK ────────────────────────────────────┴──────────────────┼──┼───┼───┐
+                                                               │  │   │   │
+                                                             [R2] │ [D4]  │
+                                                             10k  │ MBRS340
+                                                               │  │   │   │
+                                   +12V Out ──┬──[ L4 15uH ]───┴──┼───┴───┘
+                                              │                   │
+                                            [C10]               [R3]
+                                           220uF/25V            100k
+                                           Low-ESR                │
+GND_SEK ──────────────────────────────────────┴───────────────────┴────────
+Formel für die Ausgangsspannung
+Die Ausgangsspannung berechnet sich beim TPS5430 über die interne Referenzspannung von 1,221 V:
+
+U 
+out
+​
+ =1,221 V⋅(1+ 
+R 
+2
+​
+ 
+R 
+3
+​
+ 
+​
+ )
+Für +12 V: R 
+3
+​
+ =88,7 kΩ, R 
+2
+​
+ =10 kΩ
+
+Für +5 V: R 
+3
+​
+ =30,9 kΩ, R 
+2
+​
+ =10 kΩ
+
+Teil 4: Inverting Buck-Boost Schaltregler (Beispiel -12 V Kanal)
+Um aus der positiven Eingangsspannung (+15 V) eine negative Spannung (−12 V) zu erzeugen, wird der TPS5430 in der Inverting-Topologie beschaltet. Dabei wird der GND-Pin des ICs mit der negativen Ausgangsschiene verbunden.
+
+Plaintext
++15V DC Bus ──┬──[ PIN 7 VIN ]──────────────────────────────────────────┐
+              │                                                         │
+            [C11] 10uF                                                  │
+              │                 IC3: TPS5430 (Inverted)                 │
+              ├──────────────────────────────────────────────────────┐  │
+              │                                                      │  │
+              │                   ┌─────────────────────────┐        │  │
+              │                   │ Pin 8 NC       Pin 1 BOOT├──[C12]│  │
+              │                   │ Pin 7 VIN      Pin 2 NC │        │  │
+              │                   │ Pin 6 ENA      Pin 3 VSENSE──┐   │  │
+              │                   │ Pin 5 GND      Pin 4 PH ├──┬─┼───┼──┘
+              │                   └─────────┬───────────────┘  │ │   │
+              │                             │                  │ │   │
+-12V Out ─────┼─────────────────────────────┴──────────────────┼─┼───┼──┐
+              │                                                │ │   │  │
+              │                                              [R4]│  [D5]│
+              │                                               │  │ MBRS340
+              │                   GND_SEK ───┬───[ L5 22uH ]───┴──┼───┴──┘
+              │                              │                    │
+              │                            [C13]                [R5]
+              │                          220uF/25V                │
+              │                              │                    │
+-12V Out ─────┴──────────────────────────────┴────────────────────┴─────
+Teil 5: Einbindung der Strom- & Spannungsmessung (Panelmeter)
+Damit der Eigenverbrauch der Messinstrumente die Ausgangsspannung an den Laborbuchsen nicht verfälscht, wird der Mess-Shunt direkt in der Masse-Rückleitung platziert:
+
+Plaintext
++12V Vom Regler ─────────────────────────────────────────────► (+) Buchse Red (+12V)
+                                  │
+                                  ├──────────[ Voltmeter Sense (gelb) ]
+                                  │
+GND_SEK ──────────────────────────┼──────────────────────────► (-) Buchse Black (GND)
+                                  │
+                               [R_shunt] (10 mOhm / 1 W / 1%)
+                                  │
+                                  └──────────[ Amperemeter Sense (blau) ]
+Wichtige Schaltungs- & Layoutregeln für die Meisterprüfung
+Sicherheitsabstände (Kriech- und Luftstrecken):
+
+Zwischen der Primärseite (230 V) und der Sekundärseite (SELV) muss auf der Leiterplatte ein Mindestabstand von 6,0 mm bis 8,0 mm eingehalten werden (DIN EN 62368-1).
+
+Unter dem Optokoppler und dem Trafo sollte eine Fräsnut in die Platine eingebracht werden, um Kriechströme zu unterbinden.
+
+Masseführung (Ground Layout):
+
+Primärseitig: Leistungssignal (GND vom Lade-Elko C 
+2
+​
+  und MOSFET-Shunt R 
+sense
+​
+ ) getrennt von der Kleinsignal-Masse des UC3843 führen (Sternpunkt am Minuspol von C 
+2
+​
+ ).
+
+Sekundärseitig: Alle Massepunkte der Festspannungsregler sternförmig an einem zentralen Sekundär-Massepunkt zusammenführen.
+
+Thermische Anbindung:
+
+Die Schaltregler-ICs (TPS5430) besitzen auf der Unterseite ein Exposition-Pad (Thermal Pad). Dieses muss mit einer großzügigen Kupferfläche und über Durchkontaktierungen (Thermal Vias) zur Wärmeabfuhr an die Platine angebunden werden.
+
+Dieser Stepdown Wandler, den du hier gefunden hast, dieser TPS 5430 ist wohl besser geeignet, wie dieser andere LM2596. Oder ist dieser vielleicht an einer anderen Stelle mit verbaut?
+
+Der TPS5430 ist für dein Meisterprojekt tatsächlich spürbar besser geeignet als der LM2596.
+
+Der LM2596 ist zwar ein bekannter Klassiker, entwicklungstechnisch jedoch veraltet. Für die hohen Anforderungen deiner Aufgabenstellung – insbesondere das geforderte 80-PLUS-Bronze-Effizienzniveau und die geringe Restwelligkeit (<100 mV 
+pp
+​
+ ) – bringt der TPS5430 erhebliche technische Vorteile mit sich.  
+PDF
+
+Directer Vergleich: TPS5430 vs. LM2596
+Merkmal	
+LM2596 (Klassiker)  
+PDF
+
+TPS5430 (Empfehlung)	Auswirkung auf dein Meisterprojekt
+Schaltfrequenz	
+150 kHz
+
+  
+PDF
+
+500 kHz (3,3-fach höher)	
+Geringerer Ripple: Höhere Frequenzen lassen sich viel einfacher filtern, um die geforderten <100 mV 
+pp
+​
+  zu erreichen.  
+PDF
+
+Wirkungsgrad	
+ca. 75 %…80 %
+
+  
+PDF
+
+ca. 90 %…93 %	
+80-PLUS-Bronze: Mit dem LM2596 verlierst du in der 2. Stufe zu viel Energie, um auf Systemebene das Effizienzziel zu erreichen.  
+PDF
+
+Bauteilgröße (Drosseln)	Große Induktivitäten (100…150 µH)	Kleine Induktivitäten (15…22 µH)	
+Spart viel Platz auf deiner selbst entworfenen Platine.  
+PDF
+
+Schalt-Transistor	Bipolar (hoher Spannungsabfall V 
+CE,sat
+​
+ ≈1,2 V)	Internal MOSFET (R 
+DS(on)
+​
+ ≈110 mΩ)	Erheblich weniger Verlustwärme am IC selbst.
+Negativspannungen	Umständlich / ineffizient	Sehr gut für Inverting Topologie	
+Hervorragend geeignet für die −12 V und −5 V Schienen.  
+PDF
+
+Ist der LM2596 noch an einer anderen Stelle einsetzbar?
+Du könntest den LM2596 theoretisch an Stellen einsetzen, an denen der Wirkungsgrad keine primäre Rolle spielt, wie zum Beispiel:
+
+Hilfsspannungsversorgung für interne Zusatzfunktionen:
+
+Speisung eines internen 12 V-Gehäuselüfters.
+
+Eigenversorgung für die Steuerungs- und Anzeigeinstrumente (Displays).  
+PDF
+
+Als Ausweich-Baustein für die positiven Kanäle (+12 V / +5 V):
+
+Falls du den LM2596 bereits als Diskretes Bauteil im Lager hast und die Platine dafür auslegst.
+
+Bewertung aus Sicht der Prüfungskommission
+Wenn du im Fachgespräch oder in der Dokumentation erklären musst, warum du dich gegen den LM2596 und für den TPS5430 (oder vergleichbare moderne ICs wie den MP2307) entschieden hast, punktest du enorm:
+
+Begründung: "Der LM2596 arbeitet mit Bipolartransistoren und einer niedrigen Schaltfrequenz von 150 kHz. Um die geforderte Wirkungsgradklasse (80-PLUS Bronze) sowie eine Restwelligkeit unter 100 mV 
+pp
+​
+  zu garantieren, habe ich mich für den TPS5430 entschieden. Dessen CMOS/MOSFET-Technologie und 500 kHz Schaltfrequenz reduzieren die Bauteilgröße der Drosseln und erhöhen den Wirkungsgrad des DC-DC-Stufe auf über 90 %."  
+PDF
++ 1
+
+Diese Argumentation zeigt fundiertes Schaltungsverständnis und rechtfertigt die Bauteilauswahl norm- und zielgerecht.
+
+Okay, ja, das das könnte sein, du hast da eine gute Idee. Schaltplan habe ich jetzt ja in den schwarzen Kästen die einzelnen Teile, das ist schon mal sehr gut. Und an welcher Stelle muss ich denn da noch jetzt die Wärmeberechnungen durchführen oder hast du das schon irgendwo mit auf dem Schirm? Ähm, an welcher Stelle kommt es besonders drauf an? Und was ist mit diesem Conrad Netzteil, was da eingesetzt wird? Ähm, dieses Dieses eingebaute Universalnetzgerät 1 bis 30 Volt und 0 bis 3 Ampere, dieser Bausatz, wie soll das mit eingebunden werden und dort ist es wäre es wohl besonders kritisch mit der Wärmeentwicklung. Dieses würde ab äh vom Hersteller oder wie geliefert nicht funktionieren. Wie muss die Wärmeberechnung durchgeführt werden oder an welchen Stellen im Netzteil muss sonst noch auf die Wärmeberechnung besonders Acht gelegt werden?
+
+Du hast hier genau den schaltungstechnischen „Fallstrick“ dieses Meisterprojekts identifiziert.
+
+Das mitgelieferte Universal-Netzgerät (1…30 V / 0…3 A) ist das thermisch kritischste Bauteil des gesamten Projekts. Wenn man dieses Modul einfach so verbauen würde, wie es der Hersteller als Standardbausatz liefert, fällt es beim geforderten 1-Stunden-Volllasttest garantiert durch oder brennt durch thermische Überlastung ab!  
+PDF
++ 1
+
+Hier ist die detaillierte Aufschlüsselung, warum das so ist, wie die Wärmeberechnung exakt durchgeführt werden muss und an welchen anderen Stellen im Netzteil du thermisch rechnen musst.
+
+1. Warum das Universal-Netzgerät ab Werk versagt
+Das mitgelieferte Modul ist ein klassisches lineares Labornetzgerät (Längsregler).
+Ein Längsregler funktioniert wie ein variabler Widerstand: Er vernichtet die Differenz zwischen der Eingangsspannung (ca. +35 V DC) und der eingestellten Ausgangsspannung vollständig in Form von Verlustwärme (P 
+V
+​
+ ).  
+PDF
++ 2
+
+Der thermische Super-Gau (Worst-Case-Betriebspunkt)
+Der kritischste Betriebszustand für die Erwärmung ist nicht die maximale Ausgangsspannung (30 V), sondern die kleinste Ausgangsspannung bei maximalem Strom:
+
+Eingangsspannung (U 
+Ein
+​
+ ): 35 V DC
+
+Eingestellte Ausgangsspannung (U 
+Aus
+​
+ ): 1 V DC
+
+Entnommener Strom (I 
+Last
+​
+ ): 3 A
+
+P 
+V
+​
+ 
+P 
+V
+​
+ 
+​
+  
+=(U 
+Ein
+​
+ −U 
+Aus
+​
+ )⋅I 
+Last
+​
+ 
+=(35 V−1 V)⋅3 A=34 V⋅3 A=102 W
+​
+ 
+Das Problem: Der Leistungstransistor muss im Gehäuse 102 Watt reine Wärme abführen! Die Bausätze werden standardmäßig meist mit kleinen Kühlkörpern geliefert, die nur für ca. 15…20 W konzipiert sind. Ohne Anpassung zerstört sich der Transistor innerhalb weniger Minuten.  
+PDF
++ 1
+
+2. Die Wärmeberechnung für das Universal-Netzgerät
+In deiner Meisterarbeit musst du nachweisen, dass der Transistor unter Volllast seine maximale Sperrschichttemperatur (T 
+j,max
+​
+ ) nicht überschreitet.
+
+Grundformel der Wärmeleitung
+T 
+j
+​
+ =T 
+U
+​
+ +P 
+V
+​
+ ⋅(R 
+th,J-C
+​
+ +R 
+th,C-K
+​
+ +R 
+th,K-A
+​
+ )
+Variable	Bedeutung	Typischer Wert
+T 
+j
+​
+ 	Sperrschichttemperatur (Junction)	max. 150 
+∘
+ C (Sicherheitsgrenze: 125 
+∘
+ C)
+T 
+U
+​
+ 	Umgebungstemperatur im Gehäuse	45 
+∘
+ C (im geschlossenen Netzteil)
+R 
+th,J-C
+​
+ 	Wärmewiderstand Chip → Gehäuse	ca. 1,1 K/W (z. B. bei TIP35C / 2N3055)
+R 
+th,C-K
+​
+ 	Wärmewiderstand Gehäuse → Kühlkörper	ca. 0,3 K/W (Wärmeleitpaste + Glimmerscheibe)
+R 
+th,K-A
+​
+ 	Wärmewiderstand Kühlkörper → Luft	Gesuchter Wert
+Beispielsrechnung (Warum 1 Transistor physikalisch nicht reicht)
+Errechnen wir den benötigten Kühlkörper-Wärmewiderstand R 
+th,K-A
+​
+ :
+
+R 
+th,K-A
+​
+ ≤ 
+P 
+V
+​
+ 
+T 
+j,max
+​
+ −T 
+U
+​
+ 
+​
+ −R 
+th,J-C
+​
+ −R 
+th,C-K
+​
+ 
+R 
+th,K-A
+​
+ ≤ 
+102 W
+125 
+∘
+ C−45 
+∘
+ C
+​
+ −1,1 K/W−0,3 K/W
+R 
+th,K-A
+​
+ ≤0,78 K/W−1,4 K/W=−0,62 K/W
+Das Meister-Ergebnis für deine Dokumentation
+Ein negativer Wärmewiderstand ist physikalisch unmöglich! Das bedeutet: Ein einzelner Leistungstransistor kann diese 102 W Wärme nicht an den Kühlkörper abgeben, selbst wenn der Kühlkörper unendlich groß wäre, weil der innere Wärmewiderstand des Bauteils (R 
+th,J-C
+​
+ ) bereits zu hoch ist.
+
+Die Lösung für dein Meisterprojekt
+Stromaufteilung auf 2 Transistoren: Schalte zwei Leistungstransistoren parallel (z. B. 2x TIP35C) mit kleinen Emitter-Symmetrierwiderständen (0,1 Ω/5 W). Dadurch halbiert sich die Verlustleistung pro Transistor auf 51 W und der innere Wärmewiderstand halbiert sich effektiv auf 0,55 K/W.
+
+Aktivkühlung: Verwende einen Kühlkörper mit temperaturgesteuertem 12 V-Lüfter (R 
+th,K-A
+​
+ ≈0,3…0,5 K/W).
+
+3. An welchen Stellen muss sonst noch gerechnet werden?
+Neben dem Universal-Netzgerät gibt es im Gesamtsystem drei weitere Bauteilgruppen, für die du im Meisterprojekt eine thermische Bewertung durchführen musst:  
+PDF
+
+Plaintext
+┌────────────────────────────────────────────────────────────────────────┐
+│ WÄRMEBERECHNUNGEN IM GESAMTSYSTEM                                     │
+├────────────────────────────────────────────────────────────────────────┤
+│ 1. Primär-MOSFET (Sperrwandler Q1)      ──► Schalt- & Leitungsverluste │
+│ 2. Sekundär-Dioden (MBR10100)           ──► Flussspannungs-Verluste    │
+│ 3. DC-DC Wandler ICs (TPS5430)          ──► Platinen-Kühlfläche (Vias) │
+│ 4. Universal-Netzgerät (2x Transistor)  ──► Haupt-Kühlkörper + Lüfter │
+└────────────────────────────────────────────────────────────────────────┘
+A. Primärer Leistungsschalter / MOSFET (Q 
+1
+​
+  STP10NK60Z)
+Ursache: Erwärmung durch Durchlasswiderstand (R 
+DS(on)
+​
+ ≈0,75 Ω) und Umschaltverluste bei 65…100 kHz.
+
+Berechnung: Gesamte Primärleistung bei Volllast ca. 75 W. Verlustleistung am MOSFET ca. 3…5 W.
+
+Maßnahme: Erfordert ein kleines Kühlblech am MOSFET (R 
+th,K-A
+​
+ ≈10…15 K/W).
+
+B. Sekundär-Gleichrichterdioden (D 
+1
+​
+ ,D 
+2
+​
+ )
+Ursache: Spannungsabfall über der Schottky-Diode (U 
+F
+​
+ ≈0,6 V).
+
+Berechnung: Bei 3 A Stromfluss entsteht eine Verlustleistung von:
+
+P 
+V
+​
+ =U 
+F
+​
+ ⋅I=0,6 V⋅3 A=1,8 W
+Maßnahme: Montage auf ein gemeinsames Kühlblech oder Ausnutzung von Kupferflächen auf der Platine.
+
+C. DC-DC Step-Down Regler (TPS5430)
+Ursache: Eigenerwärmung des ICs trotz hohem Wirkungsgrad (∼90 %).
+
+Berechnung: Bei 12 V/1 A (12 W Ausgangsleistung) verbleiben ca. 1,3 W Verlustleistung im IC.
+
+Maßnahme: Layout-Berechnung! Das Thermal Pad auf der Unterseite des ICs muss über eine definierte Anzahl von Durchkontaktierungen (Thermal Vias, mind. 6–8 Stück) mit einer mindestens 4 cm 
+2
+  großen Masse-Kupferfläche verbunden werden.
+
+Zusammenfassung für das Prüfungsgespräch
+Wenn dich die Prüfer fragen, wie du die thermische Auslegung gestaltet hast, lautet die perfekte Antwort:
+
+"Das integrierte 1–30 V Universal-Netzgerät arbeitet als Längsregler und stellt im Worst-Case-Punkt (1 V / 3 A) mit über 100 W Verlustleistung die höchste thermische Anforderung dar. Da ein einzelner Transistor diesen Wärmestrom aufgrund seines inneren Wärmewiderstandes R 
+th,J-C
+​
+  nicht abführen kann, habe ich die Stufe auf zwei parallele Leistungstransistoren umgebaut und einen Kühlkörper mit aktiv-temperaturgestützter Belüftung dimensioniert. Die Schaltregler-ICs und Primär-MOSFETs wurden ebenfalls rechnerisch überprüft und über gezielte Platinen-Kupferflächen und Kühlbleche abgesichert, um den 1-Stunden-Volllasttest normgerecht zu bestehen."
+
+  
+PDF
+
+Ich verstehe überhaupt nicht, warum wir überhaupt dieses komische diesen komischen Bausatz mit einfügen sollen, der eigentlich gar nicht ab Werk funktioniert. Kannst du noch mal in diese Aufgabenstellung reingucken, in diese Situationsaufgabe oder kannst du dir einen einen Reim drauf draus machen, warum wir unbedingt dieses Universalnetzgerät verbauen sollen und nicht selber eine viel bessere und effizientere Schaltung entwickeln sollten.
+
+Deine Frustration ist absolut verständlich! Auf den ersten Blick wirkt es völlig widersprüchlich: Einerseits verlangt die Aufgabenstellung ein modernes Netzteil mit 80-PLUS-Bronze-Wirkungsgrad, andererseits zwingt sie dich dazu, ein altes, ineffizientes Längsregler-Modul einzubauen, das bei niedrigen Spannungen enorm viel Leistung als reine Wärme verbrennt.  
+PDF
++ 1
+
+Dass die Prüfungskommission der Handwerkskammer diesen Bausatz fest vorgeschrieben hat, hat jedoch einen klaren didaktischen und prüfungstechnischen Hintergrund:  
+PDF
+
+1. Der "Thermal-Stress-Test" für Meisteranwärter
+Wenn das gesamte Netzteil ausschließlich aus modernen DC-DC-Schaltreglern bestehen würde, wäre das Gerät zwar super effizient, aber die Verlustleistung läge über das gesamte System verteilt bei nur wenigen Watt.
+
+Der Haken dabei: Eine mathematisch anspruchsvolle Kühlkörper- und Wärmeberechnung wäre kaum nötig, weil einfache Platinen-Kupferflächen schon ausreichen würden.
+
+Der Prüfungsgrund: Die Kommission will sehen, ob du die komplexe Thermodynamik von Halbleitern (R 
+th
+​
+ , T 
+j,max
+​
+ , Derating) wirklich beherrschst. Indem sie dir ein Längsregler-Modul mit bis zu 100 W Verlustleistung aufbrummen, zwingen sie dich zu einer echten, fundierten Dimensionierung von Kühlung und Luftstrom.  
+PDF
+
+2. Nachweis von Systemintegrations-Kompetenz ("Make or Buy")
+In der Praxis als Meister / Entwickler baust du selten alles von Null auf. Sehr oft musst du Fremdmodule oder Zukaufteile in ein eigenes Gesamtsystem integrieren ("Systemintegration").
+
+Die Aufgabe prüft, ob du ein geliefertes Modul kritisch analysieren kannst.
+
+Ein Geselle baut das Modul stur nach Anleitung ein und wundert sich, warum es brennt.
+
+Ein Meister erkennt die physikalischen Grenzen des Herstellermoduls, durchschaut die Schwachstelle ("Ab Werk brennt das bei 1 V/3 A durch!") und entwickelt eigenständig eine technische Lösung (z. B. Parallelschaltung von Transistoren, Aktivkühlung, Gehäuse-Entlüftung).
+
+3. Das Hybrid-Konzept: "Effizienz" trifft "Spannungsqualität"
+Technisch lässt sich die Kombination im Prüfungsbericht sogar als durchdachtes Produktkonzept rechtfertigen:
+
+Festspannungsausgänge (+12V, -12V, +5V, -5V): Werden über moderne Schaltregler betrieben. Sie bieten hohe Effizienz für Standard-Elektronik, Mikrocontroller und Digitaltechnik.  
+PDF
+
+Universal-Ausgang (1...30 V): Ein Längsregler hat – trotz schlechter Effizienz – einen unschlagbaren Vorteil: Er erzeugt keinerlei Schaltfeilenschwingungen oder HF-Störungen. Seine Ausgangsspannung ist extrem sauber (Restwelligkeit im Mikrovolt-Bereich).
+
+Fazit: Du baust ein Hybrid-Labornetzteil, das hocheffiziente Festspannungen mit einem hochpräzisen, rauschfreien Analogausgang für empfindliche Mess- und Audioschaltungen kombiniert.
+
+4. Grundlage für den kaufmännischen Teil & die Reflexion
+In den Kapiteln 4 (Kalkulation), 6 (Marktanalyse) und 8 (Reflexion) sollst du das Projekt wirtschaftlich bewerten:  
+PDF
+
+Genau hier kannst du glänzen! Du kannst in deiner Dokumentation schreiben, dass die Integration eines fertigen Universal-Bausatzes zwar die Entwicklungszeit verkürzt, aber durch den enormen Kühlaufwand die Gehäusekosten und den Montageaufwand in die Höhe treibt.
+
+Das zeigt der Prüfungskommission, dass du nicht nur schaltungstechnisch denkst, sondern auch wie ein Fachtriebwerksleiter oder Unternehmer.
+
+So verkaufst du das in deiner Vorbereitung:
+Sieh das Universal-Netzgerät nicht als "störenden Bausatz", sondern als die vom Prüfungsausschuss eingebaute Herausforderung, an der du deine meisterliche Problemlösungskompetenz beweisen kannst. Indem du das Modul thermisch gesundbetest, zeigst du genau das Niveau, das einen Meister vom Gesellen unterscheidet.
+
+Ähm, was bedeutet eigentlich Längsregler? Kannst du mir das bitte noch mal richtig erklären?
+
+Ein Längsregler (auch Linearregler genannt) ist eines der grundlegendsten Konzepte der Elektronik.
+
+Der Name verrät bereits das Prinzip: Das regelnde Bauteil (in der Regel ein Leistungstransistor) ist in Längsrichtung – also in Reihe – direkt in den Strompfad zwischen dem Eingang und dem Ausgang geschaltet.
+
+Die Funktionsweise: Das Bild vom steuerbaren Widerstand
+Stell dir den Längstransistor einfach wie einen automatischen, extrem schnellen variablen Widerstand vor, der im Stromleitungspfad sitzt:
+
+Plaintext
+Eingang (+35 V DC)  ───►  [ Transistor (Längsregler) ]  ───►  Ausgang (+5 V DC)
+                                     │
+                                     ▼
+                      Verbraucht die Differenz (30 V)
+                      und wandelt sie komplett in WÄRME um!
+Die Aufgabe: Du hast am Eingang eine höhere Spannung (z. B. 35 V) und möchtest am Ausgang eine saubere, niedrigere Spannung haben (z. B. 5 V).
+
+Die Regelung: Eine interne Steuerung im Regler misst ständig die Ausgangsspannung. Ändert sich die Last (z. B. weil ein Verbraucher mehr Strom zieht), verändert der Transistor seinen inneren Widerstand blitzschnell so, dass am Ausgang immer exakt die 5 V anliegen.
+
+Das Problem (Die Verlustleistung): Die Spannungsdifferenz zwischen Eingang und Ausgang (35 V−5 V=30 V) fällt vollständig am Transistor selbst ab.
+
+Fließt nun ein Strom von 3 A, gilt für die Verlustleistung am Transistor:
+
+P 
+V
+​
+ =U 
+Differenz
+​
+ ⋅I=30 V⋅3 A=90 W
+Der Transistor macht im Grunde nichts anderes, als die überschüssige elektrische Energie verpuffen zu lassen, indem er sie in reine Wärme umwandelt.
+
+Warum nutzt man Längsregler überhaupt noch?
+Wenn Längsregler so viel Energie als Wärme verschwenden, warum werden sie dann im Universal-Netzgerät überhaupt verbaut?
+
+Die Vorteile von Längsreglern
+Extrem saubere Spannung: Sie arbeiten absolut analog. Es gibt kein Ein- und Ausschalten wie beim Schaltregler, weshalb die Ausgangsspannung frei von hochfrequenten Störspitzen (Schalt-Ripple) ist.
+
+Geringe Restwelligkeit: Perfekt für empfindliche Messgeräte, Audioschaltungen oder Labornetzgeräte.
+
+Sehr schnelle Regelung: Auf schlagartige Lastwechsel reagieren sie ohne nennenswerte Verzögerung.
+
+Einfacher Schaltungsaufbau: Benötigt keine Spulen/Drosseln, sondern nur wenige Kondensatoren zur Stabilisierung.
+
+Die Nachteile
+Schlechter Wirkungsgrad: Je größer die Differenz zwischen Eingangs- und Ausgangsspannung ist, desto schlechter wird die Effizienz.
+
+Großer Kühlbedarf: Die enorm hohe Verlustwärme erfordert massive Kühlkörper oder Lüfter.
+
+Der Unterschied zum Schaltregler (Step-Down / Buck) auf einen Blick
+Längsregler: Funktioniert wie ein Stromventil, das schleifen gelassen wird (Teilöffnung) und die Restenergie als Wärme verbrutzelt.
+
+Schaltregler (z. B. TPS5430): Funktioniert wie ein Lichtschalter, der viele tausend Mal pro Sekunde komplett EIN- und AUS-geschaltet wird (500 kHz). Zwischengespeichert wird die Energie in einer Spule. Da ein voll durchgeschalteter oder ausgeschalteter Transistor kaum Verlustleistung hat, entsteht fast keine Wärme (Wirkungsgrad >90 %).
+
+Möchtest du dir als Nächstes anschauen, wie wir die Schaltung des Längsreglers im Universal-Netzgerät konkret abändern müssen, damit die zwei Transistoren die Last sauber untereinander aufteilen?
+
+Okay. Das klingt schon mal alles sehr gut, was du herausgefunden hast. Auch dieser TPS 543 Das hilft wohl dann die Effizienz mit den neuen Wirkungsgrad zu erhöhen. Ach ja, du hast hier größer 90 % geschrieben. Das klingt gut. Da kann man wo an anderer Stelle dann wieder was was verbessern, wenn dieser Längsregler dort einen schlechten Wirkungsgrad hat. Ähm, das klingt sehr gut.
+
+Exakt, genau das ist der Schlüssel! Du denkst hier bereits wie ein echter Entwickler und Systemarchitekt.
+
+Das Ganze nennt sich in der Schaltungsauslegung Mischrechnung des Gesamtwirkungsgrads:
+
+Die 4 Festspannungsausgänge (+12 V, -12 V, +5 V, -5 V): Da diese über den TPS5430 mit etwa 88 % bis 92 % Wirkungsgrad arbeiten, erzeugen sie kaum Verlustleistung.  
+PDF
+
+Der Ausgleichseffekt: Diese hohe Effizienz zieht den Gesamtwirkungsgrad des Netzteils nach oben. Wenn alle Kanäle belastet werden, gleicht die Hohe Effizienz der vier Schaltregler die schlechtere Effizienz des einen Längsreglers auf Systemebene wunderbar aus.  
+PDF
+
+In deiner Meisterdokumentation ist das ein riesiger Pluspunkt: Du zeigst der Prüfungskommission schwarz auf weiß, wie du durch den Einsatz moderner Schaltregler den Gesamtwirkungsgrad gezielt auf das geforderte 80-PLUS-Bronze-Niveau getrimmt hast.  
+PDF
+
+Sollen wir als Nächstes den genauen Umbau des Längsreglers mit den zwei parallelen Transistoren schaltungstechnisch durchgehen, oder möchtest du lieber direkt ins Gehäusekonzept (EMV, Lüftung & Kühlkörpermontage) einsteigen?  
+PDF
+
+Kannst du mir bitte aus all diesen Sachen, was wir jetzt hier analysiert und zusammengetragen haben, eine PDF äh rausbringen, wo alles noch mal genau drin steht und wo auch die Schaltpläne und die Blockschaltbilder mit enthalten sind, so dass es für mein Projekt ein sehr guter Auftakt ist, wo man dann später auch dort die Schaltung heraus entwickeln kann oder mit mit äh Cat Daten auch Schaltpläne erstellen kann.
+
+Da ich als KI keine Dateien wie PDF-Binärdateien direkt erzeugen und versenden kann, habe ich dir hier das vollständige, druckfertige Projekt-Handbuch (Blueprint) zusammengestellt.
+
+Du kannst diesen Text ganz einfach markieren, in Word, Google Docs oder einen Markdown-Editor kopieren und über „Datei → Als PDF speichern / Drucken“ in eine PDF-Datei umwandeln. Es dient dir als fundierte Grundlage für deine Dokumentation, Schaltpläne und CAD-Layouts.
+
+PROJEKT-DOKUMENTATION & PFLICHTENHEFT
+Entwicklung und thermische Auslegung eines Multispannungs-Labornetzteils
+Fachbereich: Informationstechnik (Meisterprüfung)  
+PDF
+
+Projektbezeichnung: Multispannungs-Netzgerät mit Festspannungen, regelbarem Analogausgang und Integrierter Messtechnik  
+PDF
+
+1. Systemarchitektur & Topologie
+Das Netzgerät kombiniert zwei unterschiedliche Wandlerprinzipien zu einem hocheffizienten Hybrid-Labornetzteil:
+
+Primärstufe (Sperrwandler / Flyback): Bietet galvanische Trennung (Schutzkleinspannung SELV nach DIN EN 62368-1) und wandelt 230 V AC in Zwischenkreis-Gleichspannungen (+35 V, +15 V, −15 V) um.  
+PDF
+
+Sekundärstufe A (Festspannungen +12 V, -12 V, +5 V, -5 V): Hochfrequente DC-DC-Schaltregler (Buck / Inverting Buck-Boost auf Basis TPS5430) erzeugen hocheffizient (η>90 %) die Festspannungen.  
+PDF
+
+Sekundärstufe B (Universal-Netzgerät 1...30 V / 0...3 A): Analoges Längsregler-Modul für extrem saubere, rauschfreie Ausgangsspannung (ideal für empfindliche Analogelegik/Audio).  
+PDF
++ 1
+
+1.1 Gesamtsystem-Blockschaltbild (Mermaid-Grafik)
+Code-Snippet
+graph TD
+    subgraph Primärseite ["Primärseite (230 V AC / Netzspannung)"]
+        AC["Netzeingang 230 V / PE"] --> FUSE["Sicherung & NTC"]
+        FUSE --> EMV["EMV-Netzfilter (WE-CMB)"]
+        EMV --> RECT["Gleichrichter & Lade-Elko (~325 V DC)"]
+        RECT --> PWM["UC3843 PWM-Controller & MOSFET"]
+    end
+
+    PWM -->|HF-Übertragung| TRAFO[("HF-Trafo EFD30 (Galvanische Trennung)")]
+
+    subgraph Sekundärseite ["Sekundärseite (SELV)"]
+        TRAFO --> SEC_REC["Gleichrichtung & Siebung"]
+        
+        SEC_REC -->|+15 V Bus| BUCK_12V["TPS5430 (+12 V / 1 A)"]
+        SEC_REC -->|+15 V Bus| BUCK_5V["TPS5430 (+5 V / 1 A)"]
+        SEC_REC -->|-15 V Bus| BUCK_M12V["TPS5430 Inverting (-12 V / 1 A)"]
+        SEC_REC -->|-15 V Bus| BUCK_M5V["TPS5430 Inverting (-5 V / 1 A)"]
+        SEC_REC -->|+35 V Bus| LAB_MOD["Universal-Längsregler (1...30 V / 3 A)"]
+    end
+
+    subgraph Frontpanel ["Frontpanel / Anzeigen & Buchsen"]
+        BUCK_12V --> DISP1["Display +12 V"] --> OUT1["Buchse +12 V"]
+        BUCK_M12V --> DISP2["Display -12 V"] --> OUT2["Buchse -12 V"]
+        BUCK_5V --> DISP3["Display +5 V"] --> OUT3["Buchse +5 V"]
+        BUCK_M5V --> DISP4["Display -5 V"] --> OUT4["Buchse -5 V"]
+        LAB_MOD --> DISP5["Display 1..30 V"] --> OUT5["Buchse 1..30 V / 3 A"]
+    end
+2. Detaillierte Schaltungsauslegung & Schaltpläne
+2.1 Primärseite & Sperrwandler (UC3843 + STP10NK60Z)
+Eingangsschutz: Feinsicherung F 
+1
+​
+ =2,0 A (träge), EPCOS Varistor S14K275 gegen Netzspitzen, NTC 10 Ω zur Einschaltstrombegrenzung.  
+PDF
+
+EMV-Filter: Stromkompensierte Drossel (2×10 mH) kombiniert mit X2-Kondensator (100 nF).
+
+Gleichrichtung: Brückengleichrichter GBU406 und Ladekondensator 120 µF/400 V.
+
+Ansteuerung: UC3843B (Current-Mode PWM) steuert den N-Kanal MOSFET STP10NK60Z (600 V, R 
+DS(on)
+​
+ =0,75 Ω).
+
+Entkopplung/Regelung: Optokoppler LTV-817 mit TL431 Referenzdiode zur Übertragung des FB-Signals über die Isolationsgrenze.
+
+2.2 Sekundär-Festspannungen (DC-DC Step-Down mit TPS5430)
+Um das geforderte 80-PLUS-Bronze-Niveau zu sichern, wird der TPS5430 eingesetzt (Schaltfrequenz 500 kHz).  
+PDF
+
+Berechnungsformel Ausgangsspannung:
+
+U 
+out
+​
+ =1,221 V⋅(1+ 
+R 
+bottom
+​
+ 
+R 
+top
+​
+ 
+​
+ )
+Werte für +12 V: R 
+top
+​
+ =88,7 kΩ, R 
+bottom
+​
+ =10 kΩ, Induktivität L=15 µH.
+
+Werte für +5 V: R 
+top
+​
+ =30,9 kΩ, R 
+bottom
+​
+ =10 kΩ, Induktivität L=15 µH.
+
+Inverting Buck-Boost (-12 V / -5 V): GND-Pin des ICs wird an den negativen Ausgang gelegt. Das ermöglicht hocheffiziente Erzeugung negativer Spannungen aus einer positiven Schiene.
+
+3. Thermische Berechnungen & Kühlkonzept
+Das Universal-Netzgerät (1...30 V / 0...3 A) stellt durch seine lineare Längsregelung das thermisch kritischste Element dar.  
+PDF
++ 1
+
+3.1 Worst-Case Verlustleistungsberechnung
+Der kritischste Arbeitspunkt tritt bei minimaler Ausgangsspannung und maximalem Laststrom auf:
+
+P 
+V,max
+​
+ 
+P 
+V,max
+​
+ 
+​
+  
+=(U 
+Eingang
+​
+ −U 
+Ausgang,min
+​
+ )⋅I 
+max
+​
+ 
+=(35 V−1 V)⋅3 A=34 V⋅3 A=102 W
+​
+ 
+3.2 Thermischer Nachweis (Kühlkörper-Dimensionierung)
+Gleichung zur Ermittlung der maximalen Sperrschichttemperatur (T 
+j
+​
+ ):
+
+T 
+j
+​
+ =T 
+U
+​
+ +P 
+V
+​
+ ⋅(R 
+th,J-C
+​
+ +R 
+th,C-K
+​
+ +R 
+th,K-A
+​
+ )≤125 
+∘
+ C
+Umgebungstemperatur im Gehäuse (T 
+U
+​
+ ): 45 
+∘
+ C
+
+Wärmewiderstand Chip-Gehäuse (R 
+th,J-C
+​
+ ): 1,1 K/W (bei einzelnem TIP35C)
+
+Übergang Gehäuse-Kühlkörper (R 
+th,C-K
+​
+ ): 0,3 K/W (Wärmeleitpaste + Glimmer)
+
+R 
+th,K-A,erforderlich
+​
+ 
+R 
+th,K-A,erforderlich
+​
+ 
+​
+  
+≤ 
+102 W
+125 
+∘
+ C−45 
+∘
+ C
+​
+ −1,1 K/W−0,3 K/W
+≤0,78 K/W−1,4 K/W=−0,62 K/W
+​
+ 
+Ergebnis & Maßnahme: Ein negativer Wärmewiderstand ist unmöglich. Ein einzelner Transistor verbrennt thermisch.
+Lösung: Parallelschaltung von 2x TIP35C Transistoren mit Emitter-Symmetrierwiderständen (0,1 Ω/5 W). Dadurch halbiert sich die Verlustleistung pro Transistor auf 51 W und R 
+th,J-C
+​
+  halbiert sich auf 0,55 K/W. Zusätzlich wird ein temperaturgesteuerter 12 V-Lüfter integriert.  
+PDF
+
+4. Normenkonformität, EMV & Sicherheit
+Norm / Richtlinie	Anforderung im Projekt	Schaltungstechnische Umsetzung
+DIN EN 62368-1 (Produktsicherheit)	
+Schutz vor elektrischem Schlag, sichere Trennung.  
+PDF
+
+8 mm Kriech-/Luftstrecke auf Platine zwischen Primär- und Sekundärseite. Fräsnut unter Optokoppler.
+DIN EN 61000-6-3 (EMV Störaussendung)	
+Einhaltung der Grenzwerte für leitungsgebundene Störungen.  
+PDF
+
+Zweistufiger Netzeingangsfilter (WE-CMB Drossel) + Ausgangs-LC-Filter für Ripple <100 mV 
+pp
+​
+ .  
+PDF
+
+DIN EN 50678 / VDE 0701-0702	
+Geräteprüfung nach Fertigung.  
+PDF
+
+Schutzleiterprüfung (PE an Metallgehäuse <0,3 Ω), Isolationsprüfung (>1 MΩ).
+5. Muster-Prüfprotokoll (Messmatrix nach Fertigung)
+Jeder Kanal muss im Rahmen der Qualifikation bei Teillast und Volllast vermessen werden:  
+PDF
+
+Ausgang	Sollspannung	Istspannung (25% Last)	Istspannung (100% Last)	Restwelligkeit (Ripple)	Bewertung
++12 V	
+12,0 V±5 %
+
+  
+PDF
+
+<100 mV 
+pp
+​
+ 
+
+  
+PDF
+
+-12 V	
+−12,0 V±5 %
+
+  
+PDF
+
+<100 mV 
+pp
+​
+ 
+
+  
+PDF
+
++5 V	
+5,0 V±5 %
+
+  
+PDF
+
+<100 mV 
+pp
+​
+ 
+
+  
+PDF
+
+-5 V	
+−5,0 V±5 %
+
+  
+PDF
+
+<100 mV 
+pp
+​
+ 
+
+  
+PDF
+
+1...30 V	
+variabel / 3 A max  
+PDF
+
+<20 mV 
+pp
+​
+ 	
+6. Betriebswirtschaftliche Bewertung & Kalkulation
+Herstellkosten (BOM):
+
+Bauteile Primär-/Sekundärseite: ca. 45,00 \texteuro
+
+Gehäuse, Kühlkörper, Lüfter: ca. 35,00 \texteuro
+
+Anzeigen & Messtechnik: ca. 20,00 \texteuro
+
+Fertigung / Montage (2,5 h×60 \texteuro/h): 150,00 \texteuro
+
+Selbstkostenpreis: ≈250,00 \texteuro
+
+  
+PDF
+
+Break-Even-Analyse: Bei einem Ziel-Verkaufspreis von 349,00 \texteuro und Fixkosten (Entwicklung/EMV-Prüfung) von 3.500 \texteuro liegt der Break-Even-Point bei 36 Geräten.  
+PDF
+
+Möchtest du als Nächstes die genauen Pinbelegungen und das Platinen-Layout (z. B. Leiterbahnenbreiten für 3 A und Kriechstrecken) für dein CAD-Programm (wie KiCad oder Target) besprechen?
+
+Also, ich habe jetzt versucht, verschiedenes hier rauszukopieren, aber irgendwie wird das immer anders dargestellt. Wie kann ich auch diese Blockschaltbilder und Tabellen, die du erstellt hast, und die ganzen Formeln sauber darstellen, so wie sie angezeigt wird, damit das Ganze auch übersichtlich ist? Du hattest vorhin in einzelnen Punkten auch die Blockschaltbilder und die einzelnen Schritte der der einzelnen Stufen besser dargestellt. Wie kann ich das hier gut rausbekommen?
+
+Das Problem mit dem Verrutschen von Tabellen, Formeln und Diagrammen beim Rauskopieren ist der Klassiker! Der Grund dafür ist, dass ChatGPT/Gemini-Antworten in der Formatierungssprache Markdown verfasst sind. Microsoft Word oder LibreOffice verstehen diese Zeichen (wie |, # oder $) beim einfachen Einfügen nicht direkt.
+
+Hier sind die 3 besten Wege, wie du den gesamten Text samt Tabellen, Formeln und Blockschaltbildern supersauber und professionell in dein Dokument oder eine PDF bekommst.
+
+Weg 1: Der schnellste Weg über einen Online-Konverter (1 Minute)
+Wenn du mit Microsoft Word arbeitest, kannst du den Text aus dem Chat nicht einfach per "Strg + V" einfügen. Nutze stattdessen ein kostenloses Konvertierungs-Tool:
+
+Text kopieren: Kopiere den gesamten Text aus dem Chatfenster.
+
+Auf eine Konverter-Webseite gehen: Öffne z. B. dillinger.io oder stackedit.io.
+
+Einfügen: Lösche dort im linken Fenster den Beispieltext und füge deinen kopierten Text ein.
+
+Exportieren:
+
+Über das Menü oben rechts kannst du das Dokument direkt als PDF herunterladen.
+
+Alternativ kannst du den fertig formatierten Text aus der rechten Vorschau markieren und direkt sauber nach Word kopieren (Tabellen und Formeln bleiben dabei perfekt erhalten!).
+
+Weg 2: Blockschaltbilder & Mermaid-Diagramme als scharfe Grafik speichern
+Das grafische Blockschaltbild aus dem Codeblock (Mermaid) lässt sich extrem einfach in ein hochauflösendes Bild umwandeln:
+
+Kopiere nur den Mermaid-Codeblock (die Zeilen von graph TD bis zum Ende).
+
+Gehe auf die kostenlose Seite mermaid.live.
+
+Füge den Code links in das Feld ein.
+
+Rechts wird dir sofort das grafische Blockschaltbild angezeigt.
+
+Klicke unten auf "PNG" oder "SVG", um das Diagramm als Bild herunterzuladen. Dieses Bild kannst du dann perfekt in Word oder deine Meisterdokumentation einfügen!
+
+Tipp für ASCII-Schaltpläne (die Strichzeichnungen im Kasten):
+
+Wenn du die Text-Schaltpläne in Word einfügst, markiere den Text in Word und stelle die Schriftart auf Consolas oder Courier New ein. Dadurch bekommen alle Zeichen die exakt gleiche Breite, und die Linien/Kästen verrutschen nicht mehr!
+
+Weg 3: Formeln sauber in Microsoft Word darstellen
+In den Texten sind Formeln in LaTeX-Schreibweise enthalten (z. B. $P_V = (U_{Ein} - U_{Aus}) \cdot I$). So macht Word daraus echte mathematische Formeln:
+
+Kopiere die Formel in Word.
+
+Markiere die Formel (inklusive der $-Zeichen).
+
+Drücke auf deiner Tastatur die Tastenkombination Alt + = (Formeleditor öffnen).
+
+Drücke bei den Formel-Tools oben auf LaTeX und danach auf Professionell – Word wandelt die Textformel sofort in eine wunderschöne mathematische Formel um.
+
+Weg 4: Der Meister-Tipp (Markdown-Editor wie Typora oder VS Code)
+Falls du deine Meisterarbeit ohnehin am Computer schreibst, empfehle ich dir ein kostenloses Markdown-Programm wie Obsidian oder den Editor Typora:
+
+Du fügst den Text einfach 1:1 ein.
+
+Das Programm stellt Formeln, Tabellen und Mermaid-Blockschaltbilder automatisch und ohne Verziehen in Echtzeit dar.
+
+Über Datei → Exportieren → PDF erhältst du per Mausklick ein perfekt formatiertes, gedrucktes Dokument.
+
+Wie kann ich diesen ganzen Link in eine in meine Workspace Account schieben, den ich von Arbeit habe? Wie kriege ich das rüber kopiert, den ganzen Chatverlauf hier?
+
+Um den Chatverlauf sauber in deinen geschäftlichen Google Workspace Account zu übertragen, gibt es drei einfache Wege. Je nachdem, welche Berechtigungen deine Firmen-IT freigeschaltet hat, funktioniert einer davon am besten.
+
+Weg 1: Über "In Docs exportieren" & Freigabe (Empfohlen)
+Das ist der sauberste Weg, um ein Dokument im Firmen-Drive zu haben, das du direkt bearbeiten kannst.
+
+In Google Docs exportieren:
+
+Klicke unter der Antwort ganz unten auf das Teilen-Symbol (drei Punkte mit Linien verbunden oder Pfeil nach oben).
+
+Wähle "In Docs exportieren" (oder Export to Docs).
+
+Gemini erstellt automatisch ein neues Google Doc in deinem privaten Google Drive.
+
+Mit dem Firmen-Account teilen:
+
+Öffne das erstellte Google Doc in deinem privaten Drive.
+
+Klicke oben rechts auf den blauen Button "Freigeben".
+
+Trage deine Arbeits-E-Mail-Adresse (Workspace-Account) ein.
+
+Im Arbeits-Account speichern:
+
+Wechsel zu deinem Arbeits-Account / Arbeits-E-Mail.
+
+Öffne die Freigabe-Mail oder suche das Dokument unter „Für mich freigegeben“ in deinem Firmen-Google-Drive.
+
+Klicke auf Datei → Kopie erstellen, damit das Dokument fest und dauerhaft in deiner Firma abgespeichert ist.
+
+Weg 2: Einen teilenbaren Link erstellen
+Du kannst für den gesamten Chatverlauf einen Web-Link generieren:
+
+Link erstellen:
+
+Klicke unten auf das Teilen-Symbol und wähle "Chat teilen" oder "Öffentlichen Link erstellen".
+
+Bestätige die Erstellung und klicke auf "Link kopieren".
+
+Im Workspace-Account öffnen:
+
+Sende dir diesen Link per E-Mail an deine Arbeitsadresse oder füge ihn direkt im Browser ein, in dem du mit deinem Arbeits-Account angemeldet bist.
+
+Hinweis: Manche Firmen-Workspace-Accounts sperren aus Sicherheitsgründen das Öffnen externer öffentlicher Chat-Links. Falls dein Firmen-Account den Link nicht öffnen kann, nutze Weg 1 oder Weg 3.
+
+Weg 3: Über "Als Entwurf in Gmail senden"
+Falls du den Inhalt direkt als E-Mail in deinem Workspace-Postfach haben möchtest:
+
+Klicke unter der Antwort auf das Teilen-Symbol.
+
+Wähle "Entwurf in Gmail erstellen".
+
+Öffne dein privates Gmail. Dort liegt nun ein fertiger Entwurf mit dem Inhalt.
+
+Trage als Empfänger deine Arbeits-E-Mail-Adresse ein und schicke sie ab.
+
+In deinem Workspace-Postfach kannst du die Mail aufrufen und den Text oder die Anhänge in dein Firmen-Drive schieben.
+
+In welcher Form bringe ich am besten den ganzen Chat, den wir jetzt alle Ergebnisse, die wir jetzt erarbeitet haben, hier heraus, so dass dass ich es mit anderen teilen kann in über WhatsApp und das vielleicht eine Datei ist, wie eine PDF oder PowerPoint oder irgend sowas, damit wir dort ähm sag ich mal jetzt alle Ergebnisse und Zeichnungen perfekt darstellen können.
+
+Wenn du die gesammelten Unterlagen für eure Lerngruppe zusammenstellst und über WhatsApp an die anderen Teilnehmer eures Meisterkurses – etwa an deinen Kollegen in Berlin – schicken möchtest, ist ein PDF-Dokument das absolut beste Format.
+
+PowerPoint oder Word-Dokumente zerschießen auf Smartphones fast immer das Layout. Eine PDF-Datei hingegen sieht auf jedem Handy exakt gleich aus, und alle Blockschaltbilder, Tabellen und Formeln bleiben perfekt an ihrem Platz.
+
+Hier ist der sicherste und sauberste Weg, wie du aus unserem Chat ein perfektes PDF machst und es per WhatsApp teilst:
+
+Weg 1: Der Profi-Weg über den PC (Für perfekte Schaltbilder)
+Da WhatsApp Web ohnehin auf dem Rechner läuft, ist dies die beste Methode, um die Formatierung (besonders die Formeln) sauber zu übernehmen.
+
+Text formatieren: Kopiere den gesamten Text aus unserem Chat (wie in der vorherigen Antwort beschrieben) in dillinger.io oder in dein Word-Dokument.
+
+Diagramm einfügen: Erzeuge das Blockschaltbild über mermaid.live, lade es als PNG-Bild herunter und füge es als Grafik in dein Dokument ein.
+
+Als PDF speichern: Klicke in Word auf Datei → Exportieren → PDF/XPS-Dokument erstellen (oder in Dillinger oben rechts auf Export as PDF).
+
+Über WhatsApp Web teilen:
+
+Öffne web.whatsapp.com im Browser am PC.
+
+Öffne den Chat mit deiner Lerngruppe.
+
+Ziehe die fertige PDF-Datei einfach per Drag-and-Drop mit der Maus in das Chatfenster und klicke auf Senden.
+
+Weg 2: Direkt am Smartphone über Google Docs
+Falls du gerade nicht am PC bist, kannst du auch alles direkt am Handy über die Google-Apps erledigen:
+
+In Docs exportieren: Klicke hier im Chat ganz unten auf das Teilen-Symbol und wähle "In Docs exportieren".
+
+Docs-App am Handy öffnen: Öffne auf deinem Smartphone die App Google Docs. Das frisch erstellte Dokument mit unserem Chatverlauf liegt dort ganz oben.
+
+Als PDF per WhatsApp senden:
+
+Tippe im geöffneten Dokument oben rechts auf die drei Punkte.
+
+Wähle "Freigeben und exportieren".
+
+Tippe auf "Kopie senden".
+
+Wähle als Format "PDF-Dokument (.pdf)" und bestätige mit OK.
+
+Nun öffnet sich das Menü deines Handys: Wähle WhatsApp, suche den gewünschten Chat aus und sende die Datei ab.
+
+Kleiner Tipp für die Zeichnungen: Wenn du den Weg über das Smartphone wählst, werden die reinen Text-Schaltpläne (die Blockgrafiken) manchmal etwas verschoben dargestellt, da die Schriftart auf dem Handy anders skaliert. Wenn es 100 % perfekt aussehen soll, nimm für die Endfassung am besten kurz den Weg über den PC!

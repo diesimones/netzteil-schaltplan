@@ -1,0 +1,43 @@
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { GROK_PROVIDERS, authEnabled, signIn } from "@/lib/auth/client";
+import { Button } from "@/components/ui/button";
+
+export const Route = createFileRoute("/login")({ component: Login });
+
+function Login() {
+  return (
+    <main className="grid min-h-dvh place-items-center bg-bg px-6 text-fg">
+      <div className="w-full max-w-sm space-y-6">
+        <div className="space-y-2">
+          <p className="font-mono text-xs tracking-widest text-muted uppercase">
+            IFT-NT-2026
+          </p>
+          <h1 className="text-2xl font-medium tracking-tight">Anmelden</h1>
+          <p className="text-sm text-muted">
+            Optional. Das Netzteil-Studio läuft auch ohne Konto.
+          </p>
+        </div>
+        {authEnabled ? (
+          <div className="space-y-2">
+            {GROK_PROVIDERS.map((p) => (
+              <Button
+                key={p.providerId}
+                type="button"
+                variant="outline"
+                className="w-full"
+                onClick={() => signIn(p.providerId, { callbackURL: "/" })}
+              >
+                Weiter mit {p.label}
+              </Button>
+            ))}
+          </div>
+        ) : (
+          <p className="text-sm text-muted">Anmeldung ist deaktiviert.</p>
+        )}
+        <Link to="/" className="block text-center text-sm text-muted hover:text-fg">
+          Zurück zum Studio
+        </Link>
+      </div>
+    </main>
+  );
+}

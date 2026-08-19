@@ -1,0 +1,34 @@
+Panel;Id;Name;X_mm;Y_mm;Form;B_mm;H_mm
+front;m0;Meter +12;8.00;53.50;rect;45.7;26.5
+front;m1;Meter −12;57.00;53.50;rect;45.7;26.5
+front;m2;Meter +5;106.00;53.50;rect;45.7;26.5
+front;m3;Meter −5;155.00;53.50;rect;45.7;26.5
+front;m4;Meter Labor;204.00;53.50;rect;45.7;26.5
+front;bp0;Buchse + +12;21.35;22.00;circ;8.2;8.2
+front;bn0;Buchse − +12;40.35;22.00;circ;8.2;8.2
+front;bp1;Buchse + −12;70.35;22.00;circ;8.2;8.2
+front;bn1;Buchse − −12;89.35;22.00;circ;8.2;8.2
+front;bp2;Buchse + +5;119.35;22.00;circ;8.2;8.2
+front;bn2;Buchse − +5;138.35;22.00;circ;8.2;8.2
+front;bp3;Buchse + −5;168.35;22.00;circ;8.2;8.2
+front;bn3;Buchse − −5;187.35;22.00;circ;8.2;8.2
+front;bp4;Buchse + Labor;217.35;22.00;circ;8.2;8.2
+front;bn4;Buchse − Labor;236.35;22.00;circ;8.2;8.2
+front;potU;Poti U;266.00;42.00;circ;8;8
+front;potI;Poti I;266.00;22.00;circ;8;8
+front;led;Netz-LED;266.00;72.00;circ;6.2;6.2
+rear;iec;IEC C14 Schalter Sicherung;16.00;22.00;rect;60.5;30
+rear;pe;PE-Bolzen M4;90.00;30.00;circ;4.5;4.5
+rear;fan;Abluft 60 mm;180.00;44.00;circ;56;56
+rear;fs1;Lüfter M3;155.00;19.00;circ;3.2;3.2
+rear;fs2;Lüfter M3;205.00;19.00;circ;3.2;3.2
+rear;fs3;Lüfter M3;155.00;69.00;circ;3.2;3.2
+rear;fs4;Lüfter M3;205.00;69.00;circ;3.2;3.2
+bottom;s1;Distanz M3;21.00;26.00;circ;3.2;3.2
+bottom;s2;Distanz M3;259.00;26.00;circ;3.2;3.2
+bottom;s3;Distanz M3;21.00;174.00;circ;3.2;3.2
+bottom;s4;Distanz M3;259.00;174.00;circ;3.2;3.2
+lid;lid1;Deckel M3;8.00;8.00;circ;3.2;3.2
+lid;lid2;Deckel M3;272.00;8.00;circ;3.2;3.2
+lid;lid3;Deckel M3;8.00;192.00;circ;3.2;3.2
+lid;lid4;Deckel M3;272.00;192.00;circ;3.2;3.2

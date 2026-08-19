@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280mm" height="200mm">
+  <rect width="280" height="200" fill="#c9cdc4" stroke="#1c1d18" stroke-width="0.35"/>
+  <circle cx="8" cy="192" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="272" cy="192" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="8" cy="8" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+<circle cx="272" cy="8" r="1.6" fill="none" stroke="#1c1d18" stroke-width="0.2"/>
+  
+  <text x="4" y="6" font-size="3.2" font-family="monospace">IFT-NT-2026-GH lid</text>
+</svg>
